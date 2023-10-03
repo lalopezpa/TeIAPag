@@ -8,7 +8,11 @@ const Ia = (): JSX.Element => {
      <div className="grid-menu">
          <div className="col-md-12 pd-l">
             <div className="container-contact">
-              <p>• En esta pestaña haga una breve descripción de que se entiende por Inteligencia Artificial.</p>
+              <div>
+                <h1>Descripción</h1>
+              <p>Es un intento de la tecnología de imitar el raciocinio humano, pero al servicio del humano.</p>
+
+              </div>
               <p>• Sección IA en la creación de imágenes: Colocar imágenes creadas por IA de un tema específico.</p>
               <p>• Sección IA en la creación de Bots: Colocar el codigo embebido del Asistente de Watson Assistant.</p>
               <p>Nota: Este asistente debe tener al menos las siguientes intensiones: Saludos, Despedidas, IoT, IA y Cloud.</p>
