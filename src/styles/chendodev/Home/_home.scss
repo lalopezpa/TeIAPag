@@ -11,6 +11,7 @@
   align-items: center;
   height: 80vh;
 }
+
 .content-med-icon {
   display: flex;
   width: 100%;
@@ -18,18 +19,21 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .content-top-icon, .content-bottom-icon {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
 }
+
 .cirdown {
   position: relative;
-  transform: translate(-505, -50%);
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .cirdown::before {
   content: '';
   position: absolute;
@@ -40,16 +44,16 @@
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 1px 7px rgba(255, 255, 255, 0.1), 0 0 1px 13px rgba(255, 255, 255, 0.1);
-  animation: $anima;
+  animation: animate;
   opacity: 0;
 }
+
 @keyframes animate {
-  0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+  0% {transform: scale(0.1, 0.1); opacity: 0.0;}
   50% {opacity: 1.0;}
-  100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+  100% {transform: scale(1.2, 1.2); opacity: 0.0;}
 }
-/*Type Text Animated*/
-/* Cursor */
+
 .map {
   display: inline-block;
   position: fixed;
@@ -58,6 +62,7 @@
   height: 100%;
   overflow: hidden;
 }
+
 .map img {
   min-width: 100%;
   min-height: 100%;
@@ -68,84 +73,97 @@
   object-fit: cover;
   opacity: .1;
 }
+
 @media (max-width: 768px) {
   .map {
-      background: url(../../src/assets/mapa-vh.png);
-      background-size: cover;
-      height: 100vh;
-      opacity: .1;
-      bottom: 0;
-      right: 0;
-      left: 0;
+    background: url(../../src/assets/mapa-vh.png);
+    background-size: cover;
+    height: 100vh;
+    opacity: .1;
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
   .map img {
-      opacity: 0;
+    opacity: 0;
   }
 }
-// Container Type
+
 .container-type {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
+
 .container-type span {
   font-weight: bold;
 }
+
 .container-type .hello {
   font-size: 1.5em;
 }
+
 @media (min-width: 768px) {
   .container-type::before {
-      content: '\A';
-      white-space: pre;
+    content: '\A';
+    white-space: pre;
   }
 }
+
 @media (max-width: 360px) {
   .container-type {
-     padding: 0;
+    padding: 0;
   }
 }
-.container-type h2 {
 
+.container-type h2 {
   font-size: 2em;
 }
+
 @media (max-width: 320px) {
   .container-type h2 {
-     font-size: 1.5em;
+    font-size: 1.5em;
   }
   .txt-type .txt {
     font-size: 1em;
   }
 }
+
 .container-type small {
   color: $color-gray;
   font-size: 1em;
 }
+
 .container-type p {
   margin-block-start: 0;
   margin-block-end: 2em;
 }
+
 .container-type a {
   width: 45%;
   cursor: pointer;
 }
+
 .txt-type > .txt {
   font-size: 30px;
 }
+
 @media (max-width: 320px) {
   .txt-type .txt {
     font-size: 1em;
   }
 }
+
 .txt-type > .txt::after {
   content: '|';
   color: $color-three;
-  animation: 1s animated infinite;
+  animation: animated 1s infinite;
 }
+
 @keyframes animated {
-  from{ opacity: 0;}
-  to { opacity: 1;}
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .content__img {
@@ -157,11 +175,13 @@
   width: 100%;
   height: 100%;
 }
+
 .content__img a {
   width: 100%;
   height: 100%;
   color: $color-gray;
 }
+
 .content__img i {
   margin-top: 1.78em;
   background-color: $color;
@@ -173,4 +193,3 @@
   position: relative;
   z-index: 99;
 }
-/*<-------------radar ------------>*/
