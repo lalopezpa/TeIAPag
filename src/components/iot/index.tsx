@@ -52,16 +52,15 @@ const Iot = (): JSX.Element => {
               </li>
             </ul>
             <p>
-              Para más inspiración, mira nuestro video del reto 1 y otros casos
-              de uso en{" "}
+              Para más inspiración, mira nuestro video del reto 1 en{" "}
               <a
-                href="https://www.youtube.com/watch?v=HGlwKCWEIQ0"
+                href="https://www.youtube.com/watch?si=b0oLERG07VgR6bcS&v=HWt8zBulk9A&feature=youtu.be"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 YouTube
               </a>
-              . ¡Y aquí tienes una previsualización del video!
+              .  ¡Y aquí tienes una previsualización de un video de un caso de uso adicional!
             </p>
           </div>
         </div>

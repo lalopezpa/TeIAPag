@@ -100,7 +100,21 @@ const Cloud = (): JSX.Element => {
         </div>
 
         <span className="line"></span>
+
       </div>
+      <div className="col-md-12 pd-l">
+  <span className="section-title" style={{ textAlign: "center" }}><h1>IBM Natural Language Understanding</h1></span>
+  <div className="provider-section">
+    <div className="provider-item" style={{ textAlign: "center" }}>
+      <p>Video creado por el grupo sobre servicio de IBM </p>
+      <div className="video-preview">
+        <iframe
+          width="100%"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   );
 };
