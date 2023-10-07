@@ -70,19 +70,21 @@ const Description = () => {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
+              textAlign: 'center',
+              
             }}
           >
-            <div style={{ flex: 1, textAlign: 'center' }}>
+            <div style={{ flex: 1 }}>
               <h3>IoT</h3>
               <img src='./assets/iot.jpeg' alt="Imagen 1" />
             </div>
 
-            <div style={{ flex: 1, textAlign: "center" }}>
+            <div style={{ flex: 1 }}>
               <h3>IA</h3>
               <img src="./assets/ia.jpeg" alt="Imagen 2" />
             </div>
 
-            <div style={{ flex: 1, textAlign: "center" }}>
+            <div style={{ flex: 1 }}>
               <h3>Cloud Computing</h3>
               <img src="./assets/cp.jpeg" alt="Imagen 3" />
             </div>

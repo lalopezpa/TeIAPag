@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { GlobalContext } from "@context/GlobalContext";
 import { ContextProps } from '@context/types';
 import { CloseButton } from './styles';
-import close from '@assets/close.png'
+
 
 const Close = (): JSX.Element => {
 

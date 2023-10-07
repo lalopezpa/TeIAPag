@@ -62,14 +62,24 @@ const Ia = (): JSX.Element => {
             </p>
             <p>
               <h3>• Sección IA en la creación de música:</h3> Colocar un Video
-              que muestre como se usa Beethoven AI.
-              https://www.youtube.com/watch?v=nwtAawAaNNI
+              que muestre cómo se usa Beethoven AI.
+              <a
+                href="https://www.youtube.com/watch?v=nwtAawAaNNI"
+                className=""
+              >
+                <button>Ver video</button>
+              </a>
             </p>
 
             <p>
-              <h3>• Sección de IA en la creación de textos.</h3>
-              Colocar un video que muestre como se usa ChatGPT
-              https://www.youtube.com/watch?v=1k_WwjqDi5Q
+              <h3>• Sección de IA en la creación de textos.</h3> Colocar un
+              video que muestre cómo se usa ChatGPT
+              <a
+                href="https://www.youtube.com/watch?v=1k_WwjqDi5Q"
+                className="" 
+              >
+                <button  >Ver video</button>
+              </a>
             </p>
           </div>
         </div>
