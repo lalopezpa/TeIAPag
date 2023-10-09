@@ -12,7 +12,7 @@ import CC from "@components/cloud/";
 const App = () => {
   return (
     <>
-    <Router basename="/TeIAPag">
+    <Router>
       <GlobalStyle />
       <GlobalProvider>
         <Header />

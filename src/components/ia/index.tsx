@@ -44,26 +44,26 @@ const Ia = (): JSX.Element => {
                 }}
               >
                 <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="../../assets/ia1.jpeg" alt="Imagen 1" />
+                  <img src="./assets/ia1.jpeg" alt="Imagen 1" />
                 </div>
 
                 <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="../../assets/ia2.jpeg" alt="Imagen 2" />
+                  <img src="./assets/ia2.jpeg" alt="Imagen 2" />
                 </div>
 
                 <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="../../assets/ia3.jpeg" alt="Imagen 3" />
+                  <img src="./assets/ia3.jpeg" alt="Imagen 3" />
                 </div>
                 <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="../../assets/ia4.jpeg" alt="Imagen 1" />
-                </div>
-
-                <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="../../assets/ia5.jpeg" alt="Imagen 2" />
+                  <img src="./assets/ia4.jpeg" alt="Imagen 1" />
                 </div>
 
                 <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="../../assets/ia6.jpeg" alt="Imagen 3" />
+                  <img src="./assets/ia5.jpeg" alt="Imagen 2" />
+                </div>
+
+                <div style={{ flex: 1, textAlign: "center" }}>
+                  <img src="./assets/ia6.jpeg" alt="Imagen 3" />
                 </div>
               </div>
             </p>
