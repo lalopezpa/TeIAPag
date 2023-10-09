@@ -17,10 +17,10 @@ const App = () => {
       <GlobalProvider>
         <Header />
         <Routes>
-          <Route exact path="TeIAPag/" element={<Home />} />
-          <Route exact path="TeIAPag/iot" element={<IoT />} />
-          <Route exact path="TeIAPag/ai" element={<IA />} />
-          <Route exact path="TeIAPag/cc" element={<CC />} />
+          <Route exact path="/TeIAPag/" element={<Home />} />
+          <Route exact path="/TeIAPag/iot" element={<IoT />} />
+          <Route exact path="/TeIAPag/ai" element={<IA />} />
+          <Route exact path="/TeIAPag/cc" element={<CC />} />
           <Route exact path="*" element={<Home />} />
         </Routes>
       </GlobalProvider>
