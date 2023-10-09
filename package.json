@@ -1,7 +1,7 @@
 {
   "name": "TeIAPag",
   "version": "1.7.9",
-  "homepage": "https://lalopezpa.github.io/TeIAPag/",
+  "homepage": "https://lalopezpa.github.io/TeIAPag",
   "private": false,
   "description": "4.0 Solution Developers Portfolio",
   "main": "./src/index.jsx",
