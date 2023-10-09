@@ -13,11 +13,11 @@ const App = () => {
   return (
     <>
     <Router>
-      <GlobalStyle />
+      <GlobalStyle basename="/TeIAPag" />
       <GlobalProvider>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route path="/iot" element={<IoT />} />
           <Route path="/ai" element={<IA />} />
           <Route path="/cc" element={<CC />} />
