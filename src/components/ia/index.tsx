@@ -1,7 +1,22 @@
 import React from "react";
+import { WebChatContainer, setEnableDebug } from '@ibm-watson/assistant-web-chat-react';
+
+const webChatOptions = {
+  integrationID: '713c4cf4-c068-49f0-8b6d-5759221ae248',
+  region: 'us-south' as const,
+  serviceInstanceID: 'bb474fb6-6a5e-4a83-ba80-93a2060b17e4',
+  // subscriptionID: 'only on enterprise plans',
+  // Note that there is no onLoad property here. The WebChatContainer component will override it.
+  // Use the onBeforeRender or onAfterRender prop instead.
+};
+
+// Include this if you want to get debugging information from this library. Note this is different than
+// the web chat "debug: true" configuration option which enables debugging within web chat.
+setEnableDebug(true);
 
 const Ia = (): JSX.Element => {
   return (
+    
     <div className="container-menu">
       <div className="grid-menu">
         <div className="col-md-12 pd-l">
@@ -56,6 +71,7 @@ const Ia = (): JSX.Element => {
               <h3>• Sección IA en la creación de Bots:</h3>
               Colocar el codigo embebido del Asistente de Watson Assistant.
             </p>
+            <WebChatContainer config={webChatOptions} />
             <p>
               Nota: Este asistente debe tener al menos las siguientes
               intensiones: Saludos, Despedidas, IoT, IA y Cloud.
@@ -85,6 +101,7 @@ const Ia = (): JSX.Element => {
         </div>
       </div>
     </div>
+    
   );
 };
 
