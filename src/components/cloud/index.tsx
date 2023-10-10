@@ -122,6 +122,7 @@ const Cloud = (): JSX.Element => {
       </div>
   </div>
 </div>
+<span className="line"></span>
     </div>
     
   );

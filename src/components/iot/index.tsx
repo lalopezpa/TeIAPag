@@ -20,13 +20,13 @@ const Iot = (): JSX.Element => {
               </i>
             </p>
             <p>
-              Dale rienda suelta a tu imaginación, pero recuerda tener siempre ¡EmpatIA!
+              Ahora no sólo imagines, ¡mira lo que podemos hacer!
               <div className="col-md-12 pd-l">
                 <div className="col-content">
                   <iframe
                     width="100%"
-                    height="200"
-                    src="https://www.youtube.com/embed/HWt8zBulk9A"
+                    height="220"
+                    src="https://www.youtube.com/embed/HGlwKCWEIQ0"
                     title="Video de IoT"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -68,21 +68,21 @@ const Iot = (): JSX.Element => {
               </li>
             </ul>
             <p>
-              Para más inspiración, mira nuestro video del reto Nº1 aquí a tu izquierda.
+              Para más inspiración, mira nuestro video del reto Nº1 aquí abajo.
             </p>
           </div>
         </div>
         
         {/* Visualización del Video de YouTube */}
         <div className="col-md-12 pd-l">
-          <div className="col-content">
+          <div className="col-content" style={{ textAlign: "center" }}>
             <p>
-              ¡Y aquí tienes una previsualización de un video de un caso de uso adicional!
+              ¡Dale rienda suelta a tu creatividad! Nada más recuerda siempre tener... ¡EmpatIA!
             </p>
             <iframe
-              width="100%"
+              width="77%"
               height="315"
-              src="https://www.youtube.com/embed/HGlwKCWEIQ0"
+              src="https://www.youtube.com/embed/HWt8zBulk9A"
               title="Video de IoT"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

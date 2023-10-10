@@ -69,7 +69,7 @@ const Ia = (): JSX.Element => {
             </p>
             <p>
               <h3>• Sección IA en la creación de Bots:</h3>
-              Chrono Laughter Assistant
+              Código embebido del Asistente de Watson Assistant.
             </p>
             <p>
               <div
@@ -79,12 +79,16 @@ const Ia = (): JSX.Element => {
                   alignItems: "center",
                 }}
               >
-                <div style={{ flex: 1, textAlign: "center" }}>
-                  <img src="./assets/chrono_laughter.jpeg" alt="Imagen 1" />
+                <div style={{ flex: 1, textAlign: "center",}}>
+                  <img src="../assets/chrono_laughter.jpeg" alt="Imagen 1" />
                 </div>
 
                 <div style={{ flex: 1, textAlign: "center" }}>
-                  <h4>Código embebido del Asistente de Watson Assistant.</h4>
+                  <h3>Chrono Laughter</h3>
+                  <h3>Assistant</h3>
+                </div>
+                <div style={{ flex: 1, textAlign: "center" }}>
+                  <h3></h3>
                 </div>
               </div>
             </p>
@@ -95,10 +99,10 @@ const Ia = (): JSX.Element => {
             <p>
               <h3>• Sección IA en la creación de música:</h3> Conviertete en un prodigio al instante con Beethoven AI.
               {/* Visualización del Video de YouTube */}
-              <div className="col-md-12 pd-l">
+              <div className="col-md-12 pd-l" style={{ textAlign: "center" }}>
                 <div className="col-content">
                   <iframe
-                    width="100%"
+                    width="77%"
                     height="225"
                     src="https://www.youtube.com/embed/nwtAawAaNNI"
                     title="Video de IoT"
@@ -112,10 +116,10 @@ const Ia = (): JSX.Element => {
 
             <p>
               <h3>• Sección de IA en la creación de textos.</h3> Aprende sobre el generador de texto que está revolucionando a diestra y siniestra, ChatGPT.
-              <div className="col-md-12 pd-l">
+              <div className="col-md-12 pd-l" style={{ textAlign: "center" }}>
                 <div className="col-content">
                   <iframe
-                    width="100%"
+                    width="77%"
                     height="225"
                     src="https://www.youtube.com/embed/1k_WwjqDi5Q"
                     title="Video de IoT"
