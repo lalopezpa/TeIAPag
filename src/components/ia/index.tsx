@@ -80,7 +80,7 @@ const Ia = (): JSX.Element => {
                 }}
               >
                 <div style={{ flex: 1, textAlign: "center",}}>
-                  <img src="../assets/chrono_laughter.jpeg" alt="Imagen 1" />
+                  <img src="./assets/chrono_laughter.jpeg" alt="Imagen 1" />
                 </div>
 
                 <div style={{ flex: 1, textAlign: "center" }}>
