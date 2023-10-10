@@ -69,33 +69,62 @@ const Ia = (): JSX.Element => {
             </p>
             <p>
               <h3>• Sección IA en la creación de Bots:</h3>
-              Colocar el codigo embebido del Asistente de Watson Assistant.
+              Chrono Laughter Assistant
+            </p>
+            <p>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <div style={{ flex: 1, textAlign: "center" }}>
+                  <img src="./assets/chrono_laughter.jpeg" alt="Imagen 1" />
+                </div>
+
+                <div style={{ flex: 1, textAlign: "center" }}>
+                  <h4>Código embebido del Asistente de Watson Assistant.</h4>
+                </div>
+              </div>
             </p>
             <WebChatContainer config={webChatOptions} />
             <p>
-              Nota: Este asistente debe tener al menos las siguientes
-              intensiones: Saludos, Despedidas, IoT, IA y Cloud.
+              ¡Deja fuera la timidez y saluda a Chrono, pídele un chiste, preguntale sobre IoT, IA y Cloud! Y no olvides despedirte, sé educado u.u
             </p>
             <p>
-              <h3>• Sección IA en la creación de música:</h3> Colocar un Video
-              que muestre cómo se usa Beethoven AI.
-              <a
-                href="https://www.youtube.com/watch?v=nwtAawAaNNI"
-                className=""
-              >
-                <button>Ver video</button>
-              </a>
+              <h3>• Sección IA en la creación de música:</h3> Conviertete en un prodigio al instante con Beethoven AI.
+              {/* Visualización del Video de YouTube */}
+              <div className="col-md-12 pd-l">
+                <div className="col-content">
+                  <iframe
+                    width="100%"
+                    height="225"
+                    src="https://www.youtube.com/embed/nwtAawAaNNI"
+                    title="Video de IoT"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
             </p>
 
             <p>
-              <h3>• Sección de IA en la creación de textos.</h3> Colocar un
-              video que muestre cómo se usa ChatGPT
-              <a
-                href="https://www.youtube.com/watch?v=1k_WwjqDi5Q"
-                className="" 
-              >
-                <button  >Ver video</button>
-              </a>
+              <h3>• Sección de IA en la creación de textos.</h3> Aprende sobre el generador de texto que está revolucionando a diestra y siniestra, ChatGPT.
+              <div className="col-md-12 pd-l">
+                <div className="col-content">
+                  <iframe
+                    width="100%"
+                    height="225"
+                    src="https://www.youtube.com/embed/1k_WwjqDi5Q"
+                    title="Video de IoT"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
             </p>
           </div>
         </div>

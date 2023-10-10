@@ -1,6 +1,12 @@
 
 export const links = [
   {
+    to: "/",
+    text: "",
+    isActive: true,
+    isPending: false,
+  },
+  {
     to: "/home",
     text: "Home",
     isActive: true,

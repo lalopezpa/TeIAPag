@@ -105,17 +105,25 @@ const Cloud = (): JSX.Element => {
       <div className="col-md-12 pd-l">
   <span className="section-title" style={{ textAlign: "center" }}><h1>IBM Natural Language Understanding</h1></span>
   <div className="provider-section">
-    <div className="provider-item" style={{ textAlign: "center" }}>
-      <p>Video creado por el grupo sobre servicio de IBM </p>
-      <div className="video-preview">
-        <iframe
-          width="100%"
-        ></iframe>
+      <div className="provider-item" style={{ textAlign: "center" }}>
+          <p>Video creado por nosotros mismos para que conozcas de primera mano este servicio de IBM</p>
+          <div className="video-preview">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/7X5S8PvVzkI"
+              title="Video de IBM Cloud"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          
       </div>
-    </div>
   </div>
 </div>
     </div>
+    
   );
 };
 

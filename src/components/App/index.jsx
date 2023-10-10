@@ -12,16 +12,17 @@ import CC from "@components/cloud/";
 const App = () => {
   return (
     <>
-    <Router>
-      <GlobalStyle basename="/TeIAPag" />
+    <Router basename="/TeIAPag">
+      <GlobalStyle />
       <GlobalProvider>
         <Header />
         <Routes>
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
-          <Route path="/iot" element={<IoT />} />
-          <Route path="/ai" element={<IA />} />
-          <Route path="/cc" element={<CC />} />
-          <Route path="*" element={<Home />} />
+          <Route exact path="/iot" element={<IoT />} />
+          <Route exact path="/ai" element={<IA />} />
+          <Route exact path="/cc" element={<CC />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </GlobalProvider>
     </Router>

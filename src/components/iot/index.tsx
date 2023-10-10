@@ -19,6 +19,22 @@ const Iot = (): JSX.Element => {
                 teléfono móvil estando en cualquier lugar del mundo? Eso es IoT.
               </i>
             </p>
+            <p>
+              Dale rienda suelta a tu imaginación, pero recuerda tener siempre ¡EmpatIA!
+              <div className="col-md-12 pd-l">
+                <div className="col-content">
+                  <iframe
+                    width="100%"
+                    height="200"
+                    src="https://www.youtube.com/embed/HWt8zBulk9A"
+                    title="Video de IoT"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>              
+            </p>
           </div>
         </div>
 
@@ -52,22 +68,17 @@ const Iot = (): JSX.Element => {
               </li>
             </ul>
             <p>
-              Para más inspiración, mira nuestro video del reto 1 en{" "}
-              <a
-                href="https://www.youtube.com/watch?si=b0oLERG07VgR6bcS&v=HWt8zBulk9A&feature=youtu.be"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                YouTube
-              </a>
-              .  ¡Y aquí tienes una previsualización de un video de un caso de uso adicional!
+              Para más inspiración, mira nuestro video del reto Nº1 aquí a tu izquierda.
             </p>
           </div>
         </div>
-
+        
         {/* Visualización del Video de YouTube */}
         <div className="col-md-12 pd-l">
           <div className="col-content">
+            <p>
+              ¡Y aquí tienes una previsualización de un video de un caso de uso adicional!
+            </p>
             <iframe
               width="100%"
               height="315"
